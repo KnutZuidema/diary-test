@@ -38,7 +38,7 @@ class DiaryGUIDesign extends JFrame implements ActionListener{
         DiaryGUIDesign dgd = new DiaryGUIDesign("Diary");
     }
 
-    DiaryGUIDesign(String title){
+    private DiaryGUIDesign(String title){
         super(title);
         layoutCards = new CardLayout();
         panelCards = new JPanel(layoutCards);
