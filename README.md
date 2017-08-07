@@ -1,1 +1,1 @@
-"# diary-test"
+# diary-test
